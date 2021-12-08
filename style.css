@@ -127,3 +127,15 @@ body{
   color:#0D8CF0;
   transition:0.1s linear ;
 }
+@media only screen and (min-width: 768px){
+.list{
+  width: 90%;
+  left:3%;
+}
+.list-item{
+  left:-3%;
+}
+.cardin{
+  top:-60%;
+}
+}
