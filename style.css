@@ -2,7 +2,7 @@ body{
   background:#363940 ;
   text-align: center ;
 }
-.list{
+.list {
   list-style: none ;
   display: flex ;
   justify-content: space-around ;
@@ -25,6 +25,16 @@ body{
   color:#FE7CE9 ;
   background: #141318;
   
+}
+.list-item a{
+  color:white ;
+  outline: none ;
+  border: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.list-item a:hover{
+  color:#FE7CE9 ;
+  background: #141318;
 }
 .card{
   flex-basis:70%;
@@ -151,4 +161,34 @@ body{
 .fname{
   top:-63%;
 }
+}
+body.light-mode{
+  background: white;
+  color: black ;
+}
+.light-mode .list {
+  background: white ;
+  z-index:5;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.light-mode .list-item{
+  color:grey ;
+  background: white;
+}
+.light-mode .list-item:hover{
+  color:black;
+  background: #F5F5F5 ;
+}
+.light-mode .list-item a{
+  color:grey;
+  outline: none ;
+  border: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.light-mode .list-item a:hover{
+  background:#F5F5F5;
+  color:black;
+  outline: none ;
+  border: none;
+  -webkit-tap-highlight-color: transparent;
 }

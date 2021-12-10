@@ -6,3 +6,7 @@ const showAlert = () => {
   });
 }
 
+const ChangeBackground = () => {
+var element = document.body;
+  element.classList.toggle("light-mode"); 
+}
